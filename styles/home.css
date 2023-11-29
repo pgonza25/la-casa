@@ -80,3 +80,7 @@
     color: White;
     font-size: 24px;
 }
+
+.rightfooter p a{
+    text-decoration: none;
+}
