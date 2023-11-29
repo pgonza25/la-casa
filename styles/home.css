@@ -27,7 +27,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #B5E3D8;
     height: 350px;
 }
 
@@ -40,7 +39,6 @@
 .column:nth-child(2) {
     display: flex;
     flex-direction: column;
-    background-color: #F2C75C;
 }
 
 .column:nth-child(2) h1 {
@@ -52,9 +50,6 @@
     text-align: center;
 }
 
-.IGcontainer h2{
-    background-color: red;
-}
 
 .footer {
     display: grid;
