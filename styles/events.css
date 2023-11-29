@@ -1,0 +1,119 @@
+.navbar {
+    height: 50px;
+    background-color: #9B87B6;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: "Verdana", sans-serif;
+    border-radius: 8px;
+}
+
+.navbar .lacasa a{
+    color: #E5B142;
+    max-width: 60px;
+}
+
+.navbar a {
+    padding-top: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+    height: 270px;
+    background-size: cover;
+    background-image: url(./images/E1CFE35B-E170-42E6-B091-7BC9710C7606.jpeg);
+    background-position: 50% 25%;
+}
+
+.box h1 {
+    color: white;
+    padding-left: 3%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.box p {
+    color: white;
+    padding-top: 0%;
+    padding-left: 3%;
+}
+
+.background-tint {
+    background-color: rgba(240, 133, 54, 0.7);
+    background-blend-mode: multiply;
+}
+
+#eventlist {
+    padding: 6% 13% 10% 13%;
+}
+
+#eventlist .event {
+    display: flex;
+    padding-bottom: 5%;
+}
+
+
+#eventlist .event .eventinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#eventlist .event .eventinfo h2 {
+    color: #DA3A37;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+#eventlist .event .eventinfo p {
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 18px;
+}
+
+#eventlist .event .eventimage .picture {
+    height: 280px;
+    width: 400px;
+}
+
+#eventlist .event .eventimage .flyer{
+    height: 280px;
+    width: 280px;
+}
+
+.footer {
+    display: grid;
+    margin-bottom: 0px;
+    height: 280px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #9B87B6;
+}
+
+.leftfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftfooter h2 {
+    color: #E5B142;
+    font-size: 40px;
+}
+
+.rightfooter {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.rightfooter p{
+    color: White;
+    font-size: 24px;
+}
