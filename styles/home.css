@@ -1,5 +1,5 @@
 .navbar {
-    height: 50px;
+    height: 70px;
     background-color: #9B87B6;
     display: flex;
     justify-content: space-between;
@@ -10,10 +10,12 @@
 
 .navbar .homebutton {
     color: #E5B142;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .navbar a {
-    padding-top: 15px;
+    padding-top: 25px;
     padding-right: 200px;
     padding-left: 20px;
     text-decoration: none;
