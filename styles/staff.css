@@ -1,8 +1,11 @@
 #staffheader {
-    color: #D24967;
-    height: 500px;
+    background-color: #D24967;
+    height: 400px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 #staffheader h1 {
     font-size: 32px;
+    text-align: center;
 }

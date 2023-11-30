@@ -6,6 +6,8 @@
     font-size: 18px;
     font-family: "Verdana", sans-serif;
     border-radius: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .navbar .homebutton {
