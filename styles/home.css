@@ -1,26 +1,3 @@
-.navbar {
-    height: 70px;
-    background-color: #9B87B6;
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    font-family: "Verdana", sans-serif;
-    border-radius: 8px;
-}
-
-.navbar .homebutton {
-    color: #E5B142;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.navbar a {
-    padding-top: 25px;
-    padding-right: 200px;
-    padding-left: 20px;
-    text-decoration: none;
-}
-
 .container {
     margin-top: 50px;
     display: grid;
@@ -57,38 +34,4 @@
     padding-left: 50px;
     padding-right: 50px;
     font-size: 20px;
-}
-
-.footer {
-    display: grid;
-    margin-bottom: 0px;
-    height: 280px;
-    grid-template-columns: 1fr 1fr;
-    background-color: #9B87B6;
-}
-
-.leftfooter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.leftfooter h2 {
-    color: #E5B142;
-    font-size: 40px;
-}
-
-.rightfooter {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.rightfooter p{
-    color: White;
-    font-size: 24px;
-}
-
-.rightfooter p a{
-    text-decoration: none;
 }

@@ -1,22 +1,3 @@
-.navbar {
-    height: 50px;
-    background-color: #9B87B6;
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    font-family: "Verdana", sans-serif;
-    border-radius: 8px;
-}
-
-.navbar .lacasa a{
-    color: #E5B142;
-    max-width: 60px;
-}
-
-.navbar a {
-    padding-top: 10px;
-}
-
 .box {
     display: flex;
     flex-direction: column;
@@ -86,34 +67,4 @@
 #eventlist .event .eventimage .flyer{
     height: 280px;
     width: 280px;
-}
-
-.footer {
-    display: grid;
-    margin-bottom: 0px;
-    height: 280px;
-    grid-template-columns: 1fr 1fr;
-    background-color: #9B87B6;
-}
-
-.leftfooter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.leftfooter h2 {
-    color: #E5B142;
-    font-size: 40px;
-}
-
-.rightfooter {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.rightfooter p{
-    color: White;
-    font-size: 24px;
 }
