@@ -45,13 +45,16 @@
 
 .column:nth-child(2) h1 {
     text-align: center;
-
+    color: #E5B142;
+    font-size: 40px;
 }
 
 .column:nth-child(2) p {
     text-align: center;
+    color: #2D4475;
     padding-left: 50px;
     padding-right: 50px;
+    font-size: 20px;
 }
 
 
