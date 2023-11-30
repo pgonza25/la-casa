@@ -21,44 +21,6 @@
     text-decoration: none;
 }
 
-.container {
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.column {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-}
-
-.column img {
-    width: 1006px;
-    height: 484px;
-    border-radius: 10px;
-}
-
-.column:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-}
-
-.column:nth-child(2) h1 {
-    text-align: center;
-    color: #E5B142;
-    font-size: 40px;
-}
-
-.column:nth-child(2) p {
-    text-align: center;
-    color: #2D4475;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 20px;
-}
-
 .footer {
     display: grid;
     margin-bottom: 0px;
