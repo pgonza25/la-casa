@@ -9,7 +9,7 @@
 
 .menubar ul li a#homebutton {
     color: #E5B142;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -45,7 +45,7 @@ li:hover ul.submenu {
 }
 
 .submenu a {
-    background-color: #34495e;
+    background-color: #9B87B6;
 }
 
 .menubar a {
@@ -53,16 +53,17 @@ li:hover ul.submenu {
     color: white;
     display: block;
     font-weight: 400;
-    font-size: 13px;
-    padding: 15px 55px;
-    text-align: center;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-left: 20px;
     text-decoration: none;
     transition: all 0.25s ease;
 }
 
 
 .menubar li:hover a {
-    background-color: #34495e;
+    background-color: #9B87B6;
 }
 
 .submenu {
