@@ -38,15 +38,17 @@
 
 #lacasabio {
     padding-top: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-#lacasabio h2 {
+#lacasabio .grid h2 {
     font-size: 32px;
     color: #E5B142;
 }
 
 
-#lacasabio p {
+#lacasabio #history {
     color: #2D4475;
     font-size: 18px;
     padding-left: 15%;
