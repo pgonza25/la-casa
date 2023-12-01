@@ -35,3 +35,22 @@
     padding-right: 50px;
     font-size: 20px;
 }
+
+#lacasabio {
+    padding-top: 75px;
+}
+
+#lacasabio h2 {
+    font-size: 32px;
+    color: #E5B142;
+}
+
+
+#lacasabio p {
+    color: #2D4475;
+    font-size: 18px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
