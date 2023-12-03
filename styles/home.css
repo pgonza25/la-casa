@@ -42,17 +42,27 @@
     grid-template-columns: 1fr 1fr;
 }
 
-#lacasabio .grid h2 {
+#lacasabio .column {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+}
+
+#lacasabio .column h2 {
     font-size: 32px;
     color: #E5B142;
 }
 
+#lacasabio .column:nth-child(2) {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
 
-#lacasabio #history {
+#lacasabio .column#history {
     color: #2D4475;
     font-size: 18px;
     padding-left: 15%;
     padding-right: 15%;
-    text-align: center;
+    text-align: start;
 }
-
