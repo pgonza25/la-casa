@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0;
     height: 270px;
-    background-color: #E5B142;
+    background-size: cover;
+    background-image: url(../images/resources.jpeg);
+    background-position: 50% 50%;
 }
 
 #resourceheader h1 {
@@ -23,4 +25,9 @@
     padding-left: 3%;
     font-size: 24px;
     margin-right: 25%;
+}
+
+.background-tint {
+    background-color: rgba(229, 177, 66, 0.7);
+    background-blend-mode: multiply;
 }
