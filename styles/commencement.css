@@ -1,0 +1,30 @@
+#commencementheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+    height: 270px;
+    background-size: cover;
+    background-image: url(../images/chicanxlatinxcommencement.png);
+    background-position: 50% 25%;
+}
+
+#commencementheader h1 {
+    color: white;
+    padding-left: 3%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+#commencementheader p {
+    color: white;
+    padding-top: 0%;
+    padding-left: 3%;
+}
+
+.background-tint {
+    background-color: rgba(240, 133, 54, 0.7);
+    background-blend-mode: multiply;
+}
