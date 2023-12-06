@@ -12,19 +12,39 @@
 }
 
 #commencementheader h1 {
-    color: white;
+    color: #F2C75C;
     padding-left: 3%;
     padding-bottom: 0%;
     margin-bottom: 0%;
+    font-size: 60px;
 }
 
 #commencementheader p {
     color: white;
     padding-top: 0%;
     padding-left: 3%;
+    font-size: 24px;
+    margin-right: 25%;
 }
 
 .background-tint {
     background-color: rgba(240, 133, 54, 0.7);
     background-blend-mode: multiply;
+}
+
+#commencementbody {
+    margin: auto;
+    width: 70%;
+}
+
+#commencementbody h2 {
+    color: #DA3A37;
+    font-size: 32px;
+}
+
+#commencementbody p {
+    color: #2D4475;
+    font-size: 24px;
+    width: 70%;
+    text-align: left;
 }
