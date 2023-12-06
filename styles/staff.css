@@ -1,28 +1,100 @@
 #staffheader {
-    display: inline-block;
-    background-color: #D24967;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0;
+    padding: 0;
     height: 270px;
-    width: 100%;
-    margin-top: 0px;
-    padding-top: 0px;
+    background-color: #F2C75C;
 }
 
 #staffheader h1 {
-    font-size: 32px;
-    color: #E5B142;
+    color: #DA3A37;
     padding-left: 3%;
     padding-bottom: 0%;
     margin-bottom: 0%;
+    font-size: 60px;
 }
 
-#staffphotos {
+#staffheader p {
+    color: white;
+    padding-top: 0%;
+    padding-left: 3%;
+    font-size: 24px;
+    margin-right: 25%;
+}
+
+#staffbios {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#staffbios .studentpic {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+#staffbios .studentpic h3{
+    color: #D24967;
+    font-size: 32px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+#staffpics{
+    margin: auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+
+    grid-gap: 25px;
+    grid-auto-flow: column;
+
+
+}
+
+#staffpics figure {
+    position: relative;
+    align-items: center;
+}
+
+#staffpics figure img {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#staffpics figure figcaption {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+
+#staffphotos {
+    display: inline-grid;
+    grid-template-columns: repeat(2, [col-start] 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 #staffphotos .staffphoto img {
     width: 250px;
     height: 250px;
+    border-radius: 10px;
 }
