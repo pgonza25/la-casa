@@ -37,31 +37,34 @@
 }
 
 #lacasabio {
-    padding-top: 75px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: grid flex;
+    flex-direction: column;
 }
 
-#lacasabio .column {
-    display: flex;
-    justify-content: right;
-    width: 50%;
-}
-
-#lacasabio .column h2 {
+#lacasabioheader h2 {
+    padding-top: 100px;
+    padding-bottom: 0px;
     font-size: 32px;
     color: #E5B142;
+    text-align: center;
+
 }
 
-#lacasabio .column:nth-child(2) {
+#lacasabio #grandopeningimg {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-content: center;
 }
 
-#lacasabio .column#history {
+#lacasabio #grandopeningimg img {
+    border-radius: 10px;
+    width: 75%;
+    height: 75%;
+}
+
+#lacasabio #history {
     color: #2D4475;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 15%;
     padding-right: 15%;
     text-align: start;
