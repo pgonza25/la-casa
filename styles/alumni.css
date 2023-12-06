@@ -1,0 +1,33 @@
+#alumniheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+    height: 270px;
+    background-size: cover;
+    background-image: url(../images/alumni.jpg);
+    background-position: 50% 50%;
+}
+
+#alumniheader h1 {
+    color: #5CB8B2;
+    padding-left: 3%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    font-size: 60px;
+}
+
+#alumniheader p {
+    color: white;
+    padding-top: 0%;
+    padding-left: 3%;
+    font-size: 24px;
+    margin-right: 25%;
+}
+
+.background-tint {
+    background-color: rgba(166, 178, 42, 0.7);
+    background-blend-mode: multiply;
+}
