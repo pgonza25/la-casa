@@ -30,12 +30,12 @@
     width: 70%;
 }
 
-#sdabbody #sdabdescription h2 {
+#sdabbody #sdabdescription h2 , #thankyou h2{
     color: #FF6A39;
     font-size: 32px;
 }
 
-#sdabbody #sdabdescription p {
+#sdabbody #sdabdescription p , #thankyou p {
     font-size: 24px;
     width: 70%;
     text-align: left;
