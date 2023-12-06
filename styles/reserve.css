@@ -1,0 +1,39 @@
+#reserveheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+    height: 270px;
+    background-color: #F08536;
+}
+
+#reserveheader h1 {
+    color: #F2C75C;
+    padding-left: 3%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    font-size: 40px;
+}
+
+#reserveheader p {
+    color: white;
+    padding-top: 0%;
+    padding-left: 3%;
+    font-size: 20px;
+}
+
+#reservebody {
+    margin: auto;
+    display: flex;
+    width: 55%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+
+#reservebody p {
+    font-size: 20px;
+    color: #2D4475;
+}

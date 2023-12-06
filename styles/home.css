@@ -42,12 +42,12 @@
 }
 
 #lacasabioheader h2 {
+    margin: auto;
     padding-top: 100px;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
     font-size: 32px;
     color: #E5B142;
     text-align: center;
-
 }
 
 #lacasabio #grandopeningimg {
