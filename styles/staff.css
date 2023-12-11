@@ -29,7 +29,7 @@
     padding: 50px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 #staffcards .staffcard {
@@ -50,6 +50,15 @@
     padding-bottom: 0px;
     border-radius: 10px;
     backface-visibility: hidden;
+}
+
+#staffcards .staffcard .front img {
+    width: 325px;
+    height: 325px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 #staffcards .staffcard .back {

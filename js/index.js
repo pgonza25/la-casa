@@ -1,7 +1,7 @@
-const card = document.getElementById("staffcard")
+const cardArray = document.querySelectorAll("staffcard")
 
-card.addEventListener("click", flipCard);
-
-function flipCard() {
-    card.classList.toggle("flipCard");
-}
+cardArray.forEach(function(elem) {
+    elem.addEventListener("mouseover", event => {
+        elem.toggleAttribute("flipCard");
+    })
+});
