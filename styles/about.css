@@ -31,3 +31,32 @@
     background-color: rgba(242, 199, 92, 0.7);
     background-blend-mode: multiply;
 }
+
+#aboutbody {
+    padding-top: 6%;
+    padding-left: 13%;
+    padding-right: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#acknowledgments {
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 10%;
+}
+
+#aboutbody .whereandwhen h2, .staff h2, #acknowledgments h2 {
+    color: #DA3A37;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+#aboutbody .whereandwhen p, .staff p, #acknowledgments p {
+    text-align: left;
+    font-size: 24px;
+    color: #2D4475;
+    margin-right: 12%;
+}
