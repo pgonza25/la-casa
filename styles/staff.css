@@ -28,53 +28,63 @@
 #staffcards {
     padding: 50px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     justify-content: space-evenly;
 }
 
-#staffcards .staffcard {
+.cardcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 350px;
+    perspective: 1000px;
+  }
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
     transform-style: preserve-3d;
-    transition: all 0.8s ease;
 }
-
-#staffcards .staffcard .staffname {
-    padding-top: 0px;
-    text-align: center;
-    font-size: 24px;
-    color: #DA3A37;
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
 }
-
-#staffcards .staffcard .front {
-    width: 325px;
-    height: 325px;
-    padding-bottom: 0px;
-    border-radius: 10px;
-    backface-visibility: hidden;
-}
-
-#staffcards .staffcard .front img {
-    width: 325px;
-    height: 325px;
-    padding-bottom: 0px;
-    border-radius: 10px;
-    backface-visibility: hidden;
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     -webkit-backface-visibility: hidden;
-}
-
-#staffcards .staffcard .back {
-    width: 325px;
-    height: 325px;
-    padding-bottom: 0px;
-    border-radius: 10px;
     backface-visibility: hidden;
-    background-color: #71ADB0;
+}
+  
+.flip-card-front img {
+    width: 350px;
+    height: 350px;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+  
+.flip-card-back {
+    background-color: #B5E3D8;
+    color: #2D4475;
     transform: rotateY(180deg);
 }
 
-#staffcards .staffcard .back p {
-    text-align: center;
-}
-
-.flipCard {
-    transform: rotateY(180deg);
+.flip-card-back p {
+    font-size: 20px;
+    margin: auto;
+    width: 85%;
 }
