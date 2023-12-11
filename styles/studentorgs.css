@@ -31,3 +31,38 @@
     background-color: rgba(210, 73, 103, 0.7);
     background-blend-mode: multiply;
 }
+
+#clublist {
+    padding: 6% 13% 10% 13%;
+}
+
+#clublist .club {
+    display: flex;
+    padding-bottom: 5%;
+}
+
+#clublist .club .clubinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clublist .club .clubinfo h2 {
+    color: #F08536;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+#clublist .club .clubinfo p {
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 24px;
+}
+
+#clublist .club .clubimage img {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+}
