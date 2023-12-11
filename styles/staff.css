@@ -33,11 +33,27 @@
     justify-content: space-evenly;
 }
 
+#saheader {
+    padding-top: 65px;
+}
+
+#saheader h2 {
+    color: #DA3A37;
+    font-size: 32px;
+}
+
+#saheader p {
+    color: #2D4475;
+    font-size: 24px;
+    width: 70%;
+    text-align: left;
+}
+
 .cardcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 80px;
 }
-
 
 .flip-card {
     background-color: transparent;
